@@ -49,11 +49,12 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
 O sistema irá identificar o comando de voz: "Open the door". Ao ser reconhecido, a API será acionada, enviando a notificação ao proprietário.
 
 ### Estrutura do projeto
-   ├── /src                # Código fonte do projeto
-   │   └── main.ino        # Arquivo principal do projeto
-   ├── /libraries          # Bibliotecas utilizadas
-   ├── README.md           # Documentação do projeto
-   └── /docs               # Documentação adicional
+   ```bash
+   ├── /Campainha-Inteligente-Telegram    # Versão do projeto com API Telegram gratuita
+   ├── /Campainha-Inteligente-Whatsapp    # Versão do projeto com API Whatsapp gratuita
+   ├── LICENSE                            # Arquivo de licença (CC0-1.0)
+   └── README.md                          # Documentação do projeto
+   ```
 
 ### Contribuições
 Sinta-se à vontade para contribuir com melhorias e novas funcionalidades. Basta abrir uma pull request ou issue no repositório.
