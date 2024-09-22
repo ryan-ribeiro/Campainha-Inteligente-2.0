@@ -41,7 +41,7 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
    - ESP8266WiFi
    - ESP8266HTTPClient
    - WiFiClientSecure
-   - DFRobot_DF2301Q (Bibliotecas de suporte ao SEN0539-EN).
+   - [DFRobot_DF2301Q](https://github.com/DFRobot/DFRobot_DF2301Q) (Bibliotecas de suporte ao SEN0539-EN).
 4. Configure seu código com as credenciais de Wi-Fi e a URL da API de notificação, esta contendo os tokens do seu bot, uma chave de api, dentre outras
 5. Compile e faça o upload do código para o ESP8266.
 
