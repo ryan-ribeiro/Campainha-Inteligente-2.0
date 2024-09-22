@@ -26,8 +26,8 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
 
 ### Pré-requisitos
 
-- **ESP8266** configurado com o ambiente de desenvolvimento Arduino IDE ou PlatformIO.
-- **Sensor SEN0539-EN** devidamente conectado ao ESP8266.
+- **ESP8266 x 1** configurado com o ambiente de desenvolvimento Arduino IDE ou PlatformIO.
+- **Sensor SEN0539 Gravity: Voice Recognition Module x I2C & UART x 1** devidamente conectado ao ESP8266.
 - Conexão Wi-Fi para o envio das notificações via HTTP.
 - Conta configurada para a API de notificações.
 
