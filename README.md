@@ -18,7 +18,7 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
 ## Tecnologias Utilizadas
 
 - **Microcontrolador ESP8266**: Responsável pelo envio de requisições HTTP.
-- **Sensor SEN0539-EN**: Utilizado para reconhecimento de voz offline.
+- **Sensor SEN0539-EN**: Utilizado para reconhecimento de voz offline
 - **API HTTP**: API gratuita utilizada para o envio de notificações para o smartphone.
 - **Linguagem C/C++**: Usada no desenvolvimento do firmware para o ESP8266.
 
@@ -27,7 +27,8 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
 ### Pré-requisitos
 
 - **ESP8266 x 1** configurado com o ambiente de desenvolvimento Arduino IDE ou PlatformIO.
-- **Sensor SEN0539 Gravity: Voice Recognition Module x I2C & UART x 1** devidamente conectado ao ESP8266.
+- **Sensor SEN0539 Gravity: Voice Recognition Module x I2C & UART x 1** devidamente conectado ao ESP8266.B
+- **Buzzer ativo**
 - Conexão Wi-Fi para o envio das notificações via HTTP.
 - Conta configurada para a API de notificações.
 
@@ -46,7 +47,9 @@ Trata-se de uma versão 2.0 do projeto Campainha-Domiciliar, presente em meu git
 5. Compile e faça o upload do código para o ESP8266.
 
 ### Comando de Voz
-O sistema irá identificar o comando de voz: "Open the door". Ao ser reconhecido, a API será acionada, enviando a notificação ao proprietário.
+O sistema irá identificar o comando de voz: "Open the door". Ao ser reconhecido, a API será acionada, enviando a notificação ao proprietário. Ao mesmo tempo, o módulo de voz emitirá um som de confirmação do comando, bem como um buzzer ativo irá tocar o som de uma campainha.
+
+Caso o comando seja inválido, será tocado um sinal de acesso negado por parte do buzzer ativo.
 
 ### Estrutura do projeto
    ```bash
